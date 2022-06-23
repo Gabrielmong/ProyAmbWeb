@@ -1,0 +1,25 @@
+* {
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(231, 223, 197);
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #ac8c68;
+    border-radius: 15px;
+    color: rgb(255, 252, 244);
+}
+
+.triangleMan {
+    padding-top: 1em;
+}
