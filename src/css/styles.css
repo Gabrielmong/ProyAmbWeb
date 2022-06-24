@@ -1,10 +1,20 @@
+    /* Paleta de Colores*/
+    
+     :root {
+        --color1: rgb(216, 164, 6);
+        --color2: rgb(171, 120, 59);
+        --color3: rgb(191, 120, 59);
+        --color4: rgb(89, 1, 1);
+        --color5: rgb(242, 232, 232);
+    }
+    
     * {
         font-family: 'Open Sans';
         font-weight: 500;
     }
     
     body {
-        background-color: rgb(88, 88, 88);
+        background-color: var(--color5);
     }
     
     .notice {
@@ -15,9 +25,10 @@
         max-width: 50%;
         max-height: 50%;
         padding: 20px;
-        background-color: #b6b0a2;
+        background-color: var(--color2);
         border-radius: 15px;
-        color: rgb(59, 59, 59);
+        color: var(--color5);
+        z-index: -2;
     }
     
     .triangleMan {
@@ -26,14 +37,15 @@
     
     .topnav {
         overflow: hidden;
-        background-color: rgb(47, 65, 77);
+        background-color: var(--color3);
         border-radius: 15px;
+        z-index: 1;
     }
     
     .topnav a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: var(--color5);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -41,12 +53,12 @@
     }
     
     .topnav a:hover {
-        background-color: #ddd;
+        background-color: rgb(146, 97, 55);
         color: black;
     }
     
     .topnav a.active {
-        background-color: #6a707a;
+        background-color: var(--color4);
         color: white;
     }
     
